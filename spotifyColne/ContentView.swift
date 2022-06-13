@@ -58,6 +58,10 @@ struct ContentView: View {
                     }
                 }.padding()
                 Text("Your top mixes").font(.system(size: 21.0)).fontWeight(.bold).foregroundColor(.white).frame(maxWidth: .infinity, alignment: .leading).padding()
+                HStack(){
+                    PosterPlaylist(width: 150, height: 150, mixName: "Atif Aslam Mix", imageName: "poster-1", textSize: 18).padding()
+                    PosterPlaylist(width: 150, height: 150, mixName: "Text", imageName: "poster-1", textSize: 18).padding()
+                }
                 Spacer()
                 HStack(){
                     Spacer()

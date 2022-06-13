@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D9C373C2856522C00F9543B /* PosterPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9C373B2856522C00F9543B /* PosterPlaylist.swift */; };
 		6DAF3F24283A77A100E00B93 /* spotifyColneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF3F23283A77A100E00B93 /* spotifyColneApp.swift */; };
 		6DAF3F26283A77A100E00B93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF3F25283A77A100E00B93 /* ContentView.swift */; };
 		6DAF3F28283A77A300E00B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DAF3F27283A77A300E00B93 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D9C373B2856522C00F9543B /* PosterPlaylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterPlaylist.swift; sourceTree = "<group>"; };
 		6DAF3F20283A77A100E00B93 /* spotifyColne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotifyColne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DAF3F23283A77A100E00B93 /* spotifyColneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotifyColneApp.swift; sourceTree = "<group>"; };
 		6DAF3F25283A77A100E00B93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				6DAF3F23283A77A100E00B93 /* spotifyColneApp.swift */,
 				6DFFC10A284B2D3800938055 /* playlist.swift */,
 				6DAF3F25283A77A100E00B93 /* ContentView.swift */,
+				6D9C373B2856522C00F9543B /* PosterPlaylist.swift */,
 				6DAF3F27283A77A300E00B93 /* Assets.xcassets */,
 				6DAF3F29283A77A300E00B93 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				6DAF3F26283A77A100E00B93 /* ContentView.swift in Sources */,
 				6DFFC10B284B2D3800938055 /* playlist.swift in Sources */,
+				6D9C373C2856522C00F9543B /* PosterPlaylist.swift in Sources */,
 				6DAF3F24283A77A100E00B93 /* spotifyColneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
